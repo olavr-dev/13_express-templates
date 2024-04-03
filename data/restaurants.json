@@ -1,0 +1,16 @@
+[
+  {
+    "name": "McDonalds Kvadrat",
+    "address": "Stokkamyrveien 21, 4324 Sandnes, Norway",
+    "cuisine": "Hamburgers",
+    "website": "https://www.mcdonalds.no",
+    "description": "Highly recommended! The BigMac was fantastic!"
+  },
+  {
+    "name": "Dominos Forus",
+    "address": "Luramyrveien 15, 4006 Stavanger, Norway",
+    "cuisine": "Pizza",
+    "website": "https://www.dominos.no",
+    "description": "Get the Biff & Bearnaise pizza! Best pizza in town!"
+  }
+]
