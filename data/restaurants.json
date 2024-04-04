@@ -12,5 +12,12 @@
     "cuisine": "Pizza",
     "website": "https://www.dominos.no",
     "description": "Get the Biff & Bearnaise pizza! Best pizza in town!"
+  },
+  {
+    "name": "Express Pizza & Kebab",
+    "address": "Randabergveien 255, 4000 Stavanger",
+    "cuisine": "Italian & Turkish",
+    "website": "https://expresspizza.no",
+    "description": "Lovely pizza. Get the Al Capone!"
   }
 ]
