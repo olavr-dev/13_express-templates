@@ -64,17 +64,17 @@ app.get('/restaurants/:id', function (req, res) {
       return res.render('restaurant-details', { restaurant: restaurant });
     }
   }
-  res.render('404');
+  res.status(404).render('404');
 });
 
 // Custom middleware to show 404 page if user enters an invalid url
 app.use(function (req, res) {
-  res.render('404');
+  res.status(404).render('404');
 });
 
 // Express default error handling function
 app.use(function (error, req, res, next) {
-  res.render('500');
+  res.status(500).render('500');
 });
 
 app.listen(3000);
