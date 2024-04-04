@@ -67,9 +67,14 @@ app.get('/restaurants/:id', function (req, res) {
   res.render('404');
 });
 
-// Show 404 page if invalid url
+// Custom middleware to show 404 page if user enters an invalid url
 app.use(function (req, res) {
   res.render('404');
+});
+
+// Express default error handling function
+app.use(function (error, req, res, next) {
+  res.render('500');
 });
 
 app.listen(3000);
