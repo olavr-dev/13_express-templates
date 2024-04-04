@@ -67,4 +67,9 @@ app.get('/restaurants/:id', function (req, res) {
   res.render('404');
 });
 
+// Show 404 page if invalid url
+app.use(function (req, res) {
+  res.render('404');
+});
+
 app.listen(3000);
