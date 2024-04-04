@@ -4,20 +4,39 @@
     "address": "Stokkamyrveien 21, 4324 Sandnes, Norway",
     "cuisine": "Hamburgers",
     "website": "https://www.mcdonalds.no",
-    "description": "Highly recommended! The BigMac was fantastic!"
+    "description": "Highly recommended! The BigMac was fantastic!",
+    "id": "85f21181a-24ad-4965-9352-7b4e445653f25"
   },
   {
     "name": "Dominos Forus",
     "address": "Luramyrveien 15, 4006 Stavanger, Norway",
     "cuisine": "Pizza",
     "website": "https://www.dominos.no",
-    "description": "Get the Biff & Bearnaise pizza! Best pizza in town!"
+    "description": "Get the Biff & Bearnaise pizza! Best pizza in town!",
+    "id": "87321181a-24ad-4425-9352-7b4e44542dff6"
   },
   {
     "name": "Express Pizza & Kebab",
     "address": "Randabergveien 255, 4000 Stavanger",
     "cuisine": "Italian & Turkish",
     "website": "https://expresspizza.no",
-    "description": "Lovely pizza. Get the Al Capone!"
+    "description": "Lovely pizza. Get the Al Capone!",
+    "id": "12446v181a-24ad-4933-352-7b4e44456s1x2"
+  },
+  {
+    "name": "Nida Thai Mat",
+    "address": "Langgaten 10, 4324 Sandnes, Norway",
+    "cuisine": "Thai",
+    "website": "https://nidathaimat.no",
+    "description": "Good pad thai! Can't cook rice to save their lives 😤",
+    "id": "9eff181a-24ad-4965-945b-7b4e44561c7d"
+  },
+  {
+    "name": "Lura Turistheim Sola",
+    "address": "Solakrossen 23, 4421 Sola, Norway",
+    "cuisine": "Norwegian",
+    "website": "https://www.luraturistheim.no",
+    "description": "Very good \"Komla\" and traditional Norwegian cuisine. Highly recommended!",
+    "id": "52f2abd5-7773-4811-8770-2f197f6df255"
   }
 ]
