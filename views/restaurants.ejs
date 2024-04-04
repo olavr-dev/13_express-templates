@@ -46,6 +46,12 @@
     </aside>
     <main>
       <h1>Recommended restaurants</h1>
+      <% if(numberOfRestaurants === 0) { %>
+      <p>Unfortunately there are no recommended restaurants.</p>
+      <div class="restaurant-actions">
+        <a href="/recommend">Share a Restaurant</a>
+      </div>
+      <% } else { %>
       <p>Find your next favorite restaurants with help of our other users!</p>
       <p>We found <%= numberOfRestaurants %> restaurants.</p>
       <ul id="restaurants-list">
@@ -65,6 +71,7 @@
         </li>
         <% } %>
       </ul>
+      <% } %>
     </main>
   </body>
 </html>
